@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./boreno3.webp">
+
+</head>
+
+<body style="background-color: rgb(243, 238, 238);">
+    <nav style="position: sticky;top: 0px;">
+    <div class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <div>
+                <a href="#" class="navbar-brand text-uppercase">Journey</a>
+            </div>
+
+            <div style="position: sticky; top: 0px;">
+               
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#blog" class="nav-link text-uppercase">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#article" class="nav-link text-uppercase">Articles</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#gallery" class="nav-link text-uppercase">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#contact" class="nav-link text-uppercase">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<section id="blog">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img10.jpg" class="d-block w-100" alt="image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TAKE THE FIRST STEP OF YOUR JOURNEY</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam sed beatae. Voluptates
+                        consequatur vero asperiores qui molestias minima placeat enim illo porro debitis voluptatum
+                        fugiat, pariatur animi aut et.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img9.jpg" class="d-block w-100" alt="2image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TAKE THE FIRST STEP OF YOUR JOURNEY</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium. Accusantium quo ad
+                        impedit, recusandae unde amet ea iure. Quis, cumque voluptatibus dolore ipsa repellat eum iure
+                        magnam cum tempore!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img1.jpg" class="d-block w-100" alt="3img">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TAKE THE FIRST STEP OF YOUR JOURNEY</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, similique? Rerum, facilis
+                        nostrum! Adipisci maiores praesentium sunt ducimus rem? Incidunt quisquam omnis veritatis
+                        maiores consequuntur, fugit accusamus. Nemo, quidem est?</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container-fluid p-5">
+        <div class="d-flex align-items-center justify-content-around">
+            <div class="btn-grop">
+                <button class="btn btn-light dropdown-toggle text-uppercase border-dark" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    CATEGORIES
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Ation</a>
+                    <a href="#" class="dropdown-item">Another action</a>
+                    <a href="#" class="dropdown-item">Link</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item">Another Link</a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-uppercase font-weight-bold">Newest articles</h4>
+            </div>
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="search by keywords">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="button-addon2">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<section id="article">
+    <h1 class="text-center">ARTICLES</h1>
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./new-guinea.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 17 february 2021</h6>
+                        <h5 class="card-title text-uppercase">New guinea</h5>
+                        <div class="text-muted">
+                            <p class="card-text">New Guinea, island of the eastern Malay Archipelago, in the western
+                                Pacific Ocean, north of Australia. It is bounded by the Pacific Ocean to the north, the
+                                Bismarck....</p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./boreno3.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 20 february 2021</h6>
+                        <h5 class="card-title text-uppercase">Borneo</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Borneo is situated southeast of the Malay Peninsula in the Greater
+                                Sunda Islands group of the Malay Archipelago. The island is bounded by the South China
+                                Sea </p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./madag.jpeg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 18 March 2021</h6>
+                        <h5 class="card-title text-uppercase">Madagascar</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Madagascar, island country lying off the southeastern coast of Africa.
+                                Madagascar is the fourth largest island in the world, after Greenland, New Guinea, and
+                            </p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./buffin.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 2 April 2021</h6>
+                        <h5 class="card-title text-uppercase">Baffin Island</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Baffin Island (formerly Baffin Land),[5] in the Canadian territory of
+                                Nunavut, is the largest island in Canada and the fifth-largest island in the world. Its
+                                </p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./sumatra.jpeg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 10 April 2021</h6>
+                        <h5 class="card-title text-uppercase">Sumatra</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat
+                                molestias impedit sapiente et unde iure illum cumque consequatur. Impedit quibusdam
+                                rerum dolores reprehenderit fuga molestiae itaque vel esse quis.</p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./hosnumain.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 17 April 2021</h6>
+                        <h5 class="card-title text-uppercase">Honshu</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat
+                                molestias impedit sapiente et unde iure illum cumque consequatur. Impedit quibusdam
+                                rerum dolores </p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./victoria.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 27 April 2021</h6>
+                        <h5 class="card-title text-uppercase">Victoria Island</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat
+                                molestias impedit sapiente et unde iure illum cumque consequatur. Impedit quibusdam
+                                rerum dolores reprehenderit fuga molestiae itaque vel esse quis.</p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./great britan.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase">posted on 3 May 2021</h6>
+                        <h5 class="card-title text-uppercase">Great Britian</h5>
+                        <div class="text-muted">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat
+                                molestias impedit sapiente et unde iure illum cumque consequatur. Impedit quibusdam
+                                rerum dolores reprehenderit fuga molestiae itaque vel esse quis.rerum .</p>
+                            <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+   
+        <br><br>
+        <section id="gallery">
+        <h1 class="text-center">GALLERY</h1>
+        <div class="row ms-2 p-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img4.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img5.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img6.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img3.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ms-2 p-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img7.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img8.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img9.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img10.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-dark">Save image</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+        <!-- footer -->
+        <section id="contact">
+        <footer class="bg-dark text-center text-white mt-4">
+            <h1 class="text-center">CONTACT</h1>
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="https://woodwonders.com/">Travel Blog</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </section>
+
+
+</body>
+
+</html>
